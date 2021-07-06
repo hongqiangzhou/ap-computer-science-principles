@@ -1,1 +1,1 @@
-## Class Notes on {\bold AP College Computer Science Principles}
+## Class Notes on __AP College Computer Science Principles__
