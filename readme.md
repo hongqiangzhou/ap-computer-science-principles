@@ -9,6 +9,7 @@ __Bits and Bytes:__
 5. Computers use **floating-point representation** for non-integers. For example, 0.5 is represented as `1*2^{-1}`; 0.25 is `1*2^{-2}`. Note the base is always `2`, since computers use **binary** numbers.
 6. For **floating-point** numbers, there may be **roundoff** errors. In computer, there is roundoff error for number `0.1`! There is no exact representation of 0.1 as an exponential of 2. Two computers can output slightly different results when they do "floating-point" computation on the same problem, if they have different **precision**.
 7. Computers use numbers to represent other information through **encoding**. We learned three encoding systems: **HPE**, **ASCII** (American Standard Code for Information Interchange), and **UTF-8**. Note that **Unicode** is not an encoding scheme. Need to understand how UTF-8 repsent non-English characters. 
-8. What is **analog** signal? A continuous stream of varying data. The real world is "analog". Computers store information as **digital numbers**. 
-9. **Sampling interval** vs **Sampling rate**. According to the Nyquist-Shannon sampling theorem, a sufficient sampling rate is anything larger than twice the highest frequency in the signal.
-10. **Quantization**
+8. What is **analog** signal? A continuous stream of varying data. The real world is "analog". Computers store information as **digital numbers**, in forms of bits. 
+9. Three steps to convert analog signal into digital numbers: **sampling**, **quantization**, and **binary encoding**. Need to understand concepts: sampling rate, sampling interval, quantization interval, and bit depth.
+10. Reconstruction: convert digitalized signals back into analog signals.
+11. We use **compression** algorithms to reduce the amount of space (bytes) needed to represent a file. Two types of compression: **loseless** (without lossing any information) and **losy** (discard less important information).
