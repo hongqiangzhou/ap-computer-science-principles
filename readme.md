@@ -17,3 +17,7 @@
 13. Loseless image compression. Need to understand bigmap and run-length encoding (RLE, run: sequence of bits with the same value). Fax machines use RLE. JPEG uses RLE during final stage of compression.
 14. Loseless bit compression: Huffman coding. Represent the most common characters with shorter codes.
 15. Losy compression. Images: keep the brightness, average the color (Chroma subsampling). Audio: drop inaudible sounds.
+16. Copyright. Good to know: fair use, digital rights management (DRM), The Digital Millennium Copyright Act (DMCA), Creative Commons, open source. public domain.
+
+#### Unit 2: The Internet
+
