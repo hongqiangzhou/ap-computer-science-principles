@@ -14,5 +14,6 @@
 10. Reconstruction: convert digitalized signals back into analog signals.
 11. We use **compression** algorithms to reduce the amount of space (bytes) needed to represent a file. Two types of compression: **loseless** (without lossing any information) and **losy** (discard less important information).
 12. Loseless text compression: find repeated sequences and replace them with shorter representations. Need a table to store representations and meaning.
-13. Loseless image compression. Need to understand bigmap and run-length encoding (RLE). Fax machines use RLE. JPEG uses RLE during final stage of compression.
-14. Loseless bit compression: Huffman coding.
+13. Loseless image compression. Need to understand bigmap and run-length encoding (RLE, run: sequence of bits with the same value). Fax machines use RLE. JPEG uses RLE during final stage of compression.
+14. Loseless bit compression: Huffman coding. Represent the most common characters with shorter codes.
+15. Losy compression. Images: keep the brightness, average the color (Chroma subsampling). Audio: drop inaudible sounds.
