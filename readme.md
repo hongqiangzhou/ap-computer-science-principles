@@ -21,3 +21,14 @@
 
 #### Unit 2: The Internet
 
+1. **Local Area Network** (LAN, for example a network at school), **Wide Area Network** (WAN, Internet is a WAN). A WAN can include many LANs, **Data Center Network** (DCN).
+2. Computing devices use **protocals** to communicate with each other.
+3. **Bit rate**: Number of bits sent in each second (bps: bits per second).
+4. **Bandwidth**: the **maximum** bit rate of a system. For example, a network has a bandwitdh of 10 Mbps cannot send or receive 11 M bits in one second.
+5. Good to know but not required. In computer, "K" ("kilo") means 1024, "M" ("Mega") means `1024 * 1024`, "G" ("Giga") means `1024 * 1024 * 1024`.
+6. **Latency** how late the bits arrives. We typically mean "**round-tip**" latency: time between we send out the message and receive the reply.
+7. Internet speed is measured by both **bandwidth** and **latency** (lentency, download bandwidth, upload bandwidth).
+8. Internet uses **IP address** (IP: Internet Protocol) to identity a device. Two types: IPv4 and IPv6. To understand that IP address is represented by a sequence of bits.
+9. IPv4 has **32** bits. Values include 4 numbers between 0 and 255, and separated by "." (for example: 69.137.34.64). The number of different IPv4 addresses in the world is `2^32`.
+10. IPv6 has **128** bits. An IPv6 address has 8 **hexadecimal** numbers and each number has 4 digits. A hexadecimal digit has 16 values, 0-9 and then a-f. A 4-digit hexadecimal number looks like "0fa1" (its decimal value should be `15*16^2+10*16+1=4001`. The number of different IPv6 addresses in the world is `2^128`.
+11. **IP address hierarch**: first sequence of bits identifies the network and final bits identity the individual node (computer, etc). For example, <span style="color:red">141.213</span>.
