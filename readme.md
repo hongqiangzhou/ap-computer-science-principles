@@ -38,3 +38,10 @@
 15. **Redundancy**: There are often many possible paths a packet can go down to reach its destination. 
 16. **Fault tolerance**: The internet can experience many failures but still can deliver your message to its destination. "Fault tolerance" is because of "redundancy". No **single point of failure**.
 17. **Transmission Control Protocal (TCP)**: used on top of IP to handle packets (ordering, retransmission, and data integrity). **User Datagram Protocal (UDP)** solves few problems but is faster than TPC (joked as "Unreliable Data Protocol"), used for time-sensitive applications (such as video streaming).
+
+#### Programming
+
+1. ***Statement***, for example `println('Hello World')`.
+2. ***Variables***: used in program to store data. A variable has ***value*** and ***type*** (number, string, etc.). A variable can be assigned a value, and reassigned for whatever times. The current value of a variable is the one (re-)assigned the latest time.
+3. ***Mathematical expressions***.
+4. ***Strings***. A string must be surrounded by (double or single) quotes. For example: `"Hello World"`.
