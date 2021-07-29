@@ -44,4 +44,5 @@
 1. ***Statement***, for example `println('Hello World')`.
 2. ***Variables***: used in program to store data. A variable has ***value*** and ***type*** (number, string, etc.). A variable can be assigned a value, and reassigned for whatever times. The current value of a variable is the one (re-)assigned the latest time.
 3. ***Mathematical expressions***.
-4. ***Strings***. A string must be surrounded by (double or single) quotes. For example: `"Hello World"`.
+4. ***Strings***. A string must be surrounded by (double or single) quotes. For example: `"Hello, World  "`. In above example, the white spaces following "World" are also part of the string.
+5. ***String operations***: concatenation (example: `"Hello" + " world"`), slicing (example: `"Harry Potter".substr(0, 5)` means get 5 characters starting from the first (index is 0 in JavaScript)).
